@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYPE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <ul>
+                <li><a href="#" id="model 1">Model 1</a></li>
+                <li><a href="#" id="model 2">Model 2</a></li>
+                <li><a href="#" id="model 3">Model 3</a></li>
+                <li><a href="#" id="model 4">Model 4</a></li>
+            </ul>
+            <a href="#" class="btn">Reserve Now</a>
+        </nav>
+
+<div class="info">
+    <div>
+        <h2 >1.9 S</h2>
+        <p>60 mph</p>
+    </div>
+    <div>
+        <h2>200 mph</h2>
+        <p>Top Speed</p>
+    </div>
+    <div>
+        <h2>396 mi</h2>
+        <p>Max Range</p>
+    </div>
+    <div class="line"> <div>
+        <h2 id="model">Model x</h2>
+    </div>
+    </div>
+   
+</div>
+
+    </div>
+<script>
+
+var header = document.getElementById("header");
+var m1 = document.getElementById("model 1");
+var m2 = document.getElementById("model 2");
+var m3 = document.getElementById("model 3");
+var m4 = document.getElementById("model 4");
+var model = document.getElementById("model");
+
+m1.onclick = function(){
+    header.style.backgroundImage = "url(6162850-one-renault-formula-car.jpg)";
+    model.innerHTML = "model 1";
+}
+m2.onclick = function(){
+    header.style.backgroundImage = "url(6132505-vehicles-side-view-cars-mazda-2020-mazda-3-tcr-reflections-dark-grey-cars.jpg)";
+    model.innerHTML = "model 2";
+}
+m3.onclick = function(){
+    header.style.backgroundImage = "url(6161506-vehicle-headlights-car-auto-led-blue-lights-firefox-persona-theme.jpg)";
+    model.innerHTML = "model 3";
+}
+m4.onclick = function(){
+    header.style.backgroundImage = "url(wp5619526.webp)";
+    model.innerHTML = "model 4";
+}
+
+</script>
+</body>
+</html>
